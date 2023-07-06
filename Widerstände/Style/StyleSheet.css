@@ -1,0 +1,10 @@
+﻿table
+{
+    border-collapse: collapse;
+    border-width: 1px;
+}
+
+#tabelleAusgabe tr:nth-child(even)
+{
+    background-color: lightgray;
+}

@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Widerstände</title>
+    <meta charset="utf-8" />
+    <script src="Scripts/jquery-3.6.4.min.js"></script>
+    <script src="Scripts/JavaScript.js"></script>
+    <link href="Style/StyleSheet.css" rel="stylesheet" />
+</head>
+<body>
+    <table>
+        <tr>
+            <td>
+                <label for="startwert">Startwert:</label>
+            </td>
+            <td>
+                <input type="number" id="startwert" min="1" autofocus /> in Metern
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="endwert">Endwert:</label>
+            </td>
+            <td>
+                <input type="number" id="endwert" min="1" /> in Metern
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="schrittweite">Schrittweite:</label>
+            </td>
+            <td>
+                <input type="number" id="schrittweite" min="1" /> in Metern
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="leitwerte">Leitwert:</label>
+            </td>
+            <td>
+                <select size="1" id="leitwerte" ></select>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <input type="button" value="berechnen" id="buttonBerechnen" />
+                <input type="button" value="speichern" id="buttonSpeichern" />
+                <input type="button" value="laden" id="buttonLaden"/>
+            </td>
+        </tr>
+    </table>
+    <br />
+    <table id="tabelleAusgabe"></table>
+</body>
+</html>
